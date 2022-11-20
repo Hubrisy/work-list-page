@@ -1,0 +1,55 @@
+.description__title-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.description__title{
+    max-width: 500px;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3A4562;
+}
+.description__title div{
+    margin-top: 7px;
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(56, 65, 93, 0.355988);;
+}
+.salary__block{
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3A4562;
+}
+.salary__block div{
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A4562;
+}
+.descrip__main-text{
+    max-width: 721px;
+    margin-top: 7px;
+}
+.subtitle__text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3A4562;
+}
+.text__item{
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A4562;
+}

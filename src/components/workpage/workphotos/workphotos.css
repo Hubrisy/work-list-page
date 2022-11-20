@@ -1,0 +1,24 @@
+.workphotos__container{
+    margin-top: 87px;
+}
+.workphotos__container span{
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #3A4562;
+}
+.workphotos__gallery{
+    display: flex;
+}
+.gallery__block{
+    margin-top: 21px;
+}
+.gallery__block + .gallery__block{
+    margin-left: 10px;
+}
+.gallery__block img{
+    border-radius: 8px;
+    width: 200px;
+    height: 116px;
+}
