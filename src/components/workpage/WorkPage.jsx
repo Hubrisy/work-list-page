@@ -1,8 +1,9 @@
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
+
 import AdditionalInfo from './additionalinfo/AdditionalInfo';
 import ReturnButton from './button/ReturnButton';
-import GetMap from './map/Map';
+import MapContainer from './map/MapContainer';
 import Title from './titleplace/Title';
 import WorkDescription from './work-description/WorkDescription';
 import './workpage.css';
@@ -23,7 +24,7 @@ function WorkPage() {
                 <WorkPhotos  pictures={selectedWork.pictures}/>
                 <ReturnButton />
             </div>
-            <GetMap name={selectedWork.name} address={selectedWork.address} phone={selectedWork.phone} email={selectedWork.email}/>
+            <MapContainer name={selectedWork.name} address={selectedWork.address} phone={selectedWork.phone} email={selectedWork.email}/>
         </div>
     )
 }

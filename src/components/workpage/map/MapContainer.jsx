@@ -1,7 +1,9 @@
-import './Map.css';
-import location from '../../img/Location.png'
+import './map.css';
+import location from '../../img/Location.png';
+import { Map, GoogleApiWrapper } from 'google-map-react';
+import GetMap from './GetMap';
 
-function GetMap(props) {
+function MapContainer(props) {
     return (
         <div className="map__container">
             <div className="location__info-container">
@@ -21,10 +23,10 @@ function GetMap(props) {
                 </div>
             </div>
             <div className="map__block">
-                
+                <GetMap location={props.location} />
             </div>
         </div>
     )
 }
 
-export default GetMap;
+export default MapContainer;
