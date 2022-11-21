@@ -9,6 +9,7 @@ function MainContainer() {
             <div className="jobitem__block">
                 <Routes>
                     <Route path="/" element={<GetListData />}></Route>
+                    <Route path="/worklist" element={<GetListData />}></Route>
                 </Routes>
             </div>
             <Routes >
