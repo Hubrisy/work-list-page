@@ -1,4 +1,4 @@
-import './components.css';
+import './joblist.css';
 import GetListData from '../GetListData';
 import { Route, Routes } from 'react-router-dom';
 import WorkPage from '../workpage/WorkPage';

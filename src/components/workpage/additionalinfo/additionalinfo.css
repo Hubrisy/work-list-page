@@ -23,6 +23,9 @@
 .employment__type{
     display: flex;
 }
+.employment__block + .employment__block{
+    margin-left: 10px;
+}
 .employment__block{
     height: 50px;
     width: 222px;

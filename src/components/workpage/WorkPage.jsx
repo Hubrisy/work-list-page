@@ -23,7 +23,7 @@ function WorkPage() {
                 <WorkPhotos  pictures={selectedWork.pictures}/>
                 <ReturnButton />
             </div>
-            <GetMap />
+            <GetMap name={selectedWork.name} address={selectedWork.address} phone={selectedWork.phone} email={selectedWork.email}/>
         </div>
     )
 }

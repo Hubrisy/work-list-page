@@ -1,5 +1,42 @@
 .map__container{
     width: 402px;
     height: 436px;
-    background-color: black;
+    background-color: rgb(149, 116, 180);
+    border-radius: 8px;
+}
+.location__info-container{
+    height: 50%;
+    width: 100%;
+    background-color: #384564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px 8px 0 0;
+}
+.location__name-block{
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #E7EAF0;
+}
+.location__address-block{
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E8EBF3;
+    margin-top: 8px;
+}
+.location__address-block span{
+    margin-left: 8px;
+}
+.location__contacts-block{
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E8EBF3;
+    margin-top: 8px;
 }

@@ -19,7 +19,7 @@ function JobItem(props) {
                             <div className="location__img">
                                 <img src={location} alt="location__img" />
                             </div>
-                            <div className="location__address">Vienna, Austria</div>
+                            <div className="location__country">Vienna, Austria</div>
                         </div>
                     </div>
                 </div>
