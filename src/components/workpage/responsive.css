@@ -93,4 +93,7 @@
         font-size:16px;
         line-height: 23px;
     }
+    .description__subtitle{
+        max-width: 400px;
+    }
 }
