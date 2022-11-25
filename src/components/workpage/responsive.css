@@ -11,8 +11,14 @@
     }
 }
 @media(max-width:740px){
+    .main__container{
+        margin-left: 15px;
+    }
     .share__save-container{
         margin-right: 50px;
+    }
+    .map__container{
+        margin-top: 100px;
     }
 }
 @media(max-width:650px){
