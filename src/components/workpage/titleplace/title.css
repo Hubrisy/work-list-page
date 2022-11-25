@@ -1,3 +1,6 @@
+.maincontent__top{
+    max-width: 721px;
+}
 .top__info{
     display: flex;
     justify-content: space-between;
@@ -38,8 +41,11 @@
     line-height: 24px;
     color: #3A4562;
 }
-.border__bottom{
-    border-bottom: 1px solid #3A4562;
+.title__border-bottom{
+    /* border-bottom: 1px solid #3A4562; */
+    height: 1px;
+    background-color:  #3A4562;
     opacity: 13.11%;
     margin-top: 10px;
+    max-width: 721px;
 }

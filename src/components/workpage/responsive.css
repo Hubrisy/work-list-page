@@ -1,0 +1,96 @@
+@media(max-width:1220px){
+    .workpage__container{
+        display: block;
+    }
+    .map__container{
+        margin: 0 auto;
+        margin-top: 160px;
+    }
+    .return__container{
+        display: none;
+    }
+}
+@media(max-width:740px){
+    .share__save-container{
+        margin-right: 50px;
+    }
+}
+@media(max-width:650px){
+    .gallery__block:nth-child(3){
+        display: none;
+    }
+    .gallery__block{
+        margin: 0 auto;
+    }
+    .additional__title{
+        margin-left: 25px;
+    }
+    .employment__type-container span{
+        margin-left: 25px;
+    }
+    .benefits__description-container span{
+        margin-left: 25px;
+    }
+    .workphotos__container span{
+        margin-left: 25px;
+    }
+}
+@media(max-width: 575px){
+    .salary__block{
+        display: none;
+    }
+    .responsive__salary-block{
+        display: block;
+    }
+    .responsive__salary-block span{
+        font-family: 'Proxima Nova';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        color: #3A4562;
+    }
+    .responsive__salary-block div{
+        font-family: 'Proxima Nova';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(56, 65, 93, 0.82);;
+    }
+    .description__subtitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media(max-width: 510px){
+    .employment__block{
+        max-width: 170px;
+        margin-left: 25px;
+    }
+    .benefits__block{
+        max-width: 170px;
+        margin-left: 25px;
+    }
+    .benefits__block:nth-child(3){
+        display: none;
+    }
+    .button__container{
+        margin-left: 15px;
+    }
+}
+@media(max-width:450px){
+    .top__info{
+        display: block;
+    }
+    .top__save-job{
+        margin-right: 15px;
+    }
+    .savejob__text{
+        font-size:16px;
+        line-height: 23px;
+    }
+    .sharjob__text{
+        font-size:16px;
+        line-height: 23px;
+    }
+}

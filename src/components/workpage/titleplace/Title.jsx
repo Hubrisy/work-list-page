@@ -19,7 +19,7 @@ function Title() {
                     </div>
                 </div>
             </div>
-            <div className="border__bottom"></div>
+            <div className="title__border-bottom"></div>
             <ApplyButton />
         </div>
     )

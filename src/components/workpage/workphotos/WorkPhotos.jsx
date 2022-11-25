@@ -4,6 +4,7 @@ function WorkPhotos(props){
     return (
         <div className="workphotos__container">
             <span>Attached images</span>
+            <div className="additional__border-bottom"></div>
             <div className="border__bottom"></div>
             <div className="workphotos__gallery">
                 {props.pictures.map((item,newid) => {

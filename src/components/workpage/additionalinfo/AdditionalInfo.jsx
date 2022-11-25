@@ -5,10 +5,10 @@ function AdditionalInfo(props) {
         <div className="additional__container">
             <div className="additional__title-container">
                 <span className="additional__title">Additional info</span>
-                <div className="border__bottom"></div>
+                <div className="additional__border-bottom"></div>
             </div>
             <div className="employment__type-container">
-                <span className="span">Employment type</span>
+                <span>Employment type</span>
                 <div className="employment__type">
                     {props.employment_type.map((item,uniqId) => {
                         return (

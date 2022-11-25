@@ -8,6 +8,11 @@
     line-height: 34px;
     color:#3A4562;
 }
+.additional__border-bottom{
+    border-bottom: 1px solid #3A4562;
+    opacity: 13.11%;
+    margin-top: 10px;
+}
 
 
 .employment__type-container{

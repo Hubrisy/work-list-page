@@ -26,6 +26,9 @@
     line-height: 25px;
     color: #3A4562;
 }
+.responsive__salary-block{
+    display: none;
+}
 .salary__block div{
     font-family: 'Proxima Nova';
     font-weight: 400;

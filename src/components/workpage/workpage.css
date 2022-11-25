@@ -1,12 +1,12 @@
 .workpage__container{
     background-color: white;
     height: 100%;
-    width: 1260px;
+    max-width: 1260px;
     display: flex;
     margin: 0 auto;
     margin-top: 56px;
 }
 .maincontent__container{
-    width: 723px;
+    max-width: 721px;
     margin: 0 auto;
 }

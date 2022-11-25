@@ -7,6 +7,7 @@ import MapContainer from './map/MapContainer';
 import Title from './titleplace/Title';
 import WorkDescription from './work-description/WorkDescription';
 import './workpage.css';
+import './responsive.css';
 import WorkPhotos from './workphotos/WorkPhotos';
 
 function WorkPage() {

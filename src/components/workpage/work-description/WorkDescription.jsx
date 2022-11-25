@@ -7,14 +7,22 @@ function WorkDescription(props) {
             <div className="description__title-container">
                 <div className="description__title">
                     {props.title}
-                    <div>
-                    Posted 2 days ago
+                    <div className="description__subtitle">
+                        <div>
+                            Posted 2 days ago
+                        </div>
+                        <div className="responsive__salary-block">
+                            <span>{props.salary}</span>
+                            <div>
+                                Brutto, per year
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="salary__block">
                     {props.salary}
                     <div>
-                    Brutto, per year
+                        Brutto, per year
                     </div>
                 </div>
             </div>
