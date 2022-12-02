@@ -11,7 +11,6 @@
     height: 164px; 
     margin: 0 auto;
     margin-top: 29px;
-    display: flex;
 }
 .jobitem__container+.jobitem__container{
     margin-top: 8px;
@@ -24,7 +23,7 @@
     margin-top: 24px;
     display: flex;
     margin-left: 16px;
-    width: 1070px;
+    max-width: 1070px;
 }
 .ava__container img{
     border-radius: 50%;
@@ -58,10 +57,16 @@
     color: #878D9D;
     margin-left: 8px;
 }
+.jobitem__reaction-container{
+    display: flex;
+    margin-right: 16px;
+}
+.responsive__jobitem-reaction{
+    display: none;
+}
 .jobitem__rate{
     display: flex;
     align-items: center;
-    margin-left: 32px;
 }
 .jobitem__post-time{
     margin-top: 24px;

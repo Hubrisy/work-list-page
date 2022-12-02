@@ -13,6 +13,10 @@ function JobItem(props) {
                         <img src={hospital} alt="ava" />
                     </div>
                     <div className="jobitem__description-block">
+                        <div className="responsive__jobitem-reaction">
+                            <img src={stars} alt="rate" />
+                            <div>Posted 2 days ago</div>
+                        </div>
                         <Link to={`/workpage/${props.id}`}><div className='jobitem__description' key={props.id}>{props.title}</div></Link>
                         <div className="jobitem__department-name">Department name •  Allgemeines Krankenhaus der Stadt Wien - AKH</div>
                         <div className="jobitem__location-container">
@@ -23,14 +27,16 @@ function JobItem(props) {
                         </div>
                     </div>
                 </div>
-                <div className="jobitem__rate">
-                    <img src={stars} alt="rate" />
-                </div>
-                <div className="jobitem__post-time">
-                    <div className="save__vacancie">
-                        <img src={saving} alt="save" />
+                <div className="jobitem__reaction-container">
+                    <div className="jobitem__rate">
+                        <img src={stars} alt="rate" />
                     </div>
-                    <div className="posted__like">Posted 2 days ago</div>
+                    <div className="jobitem__post-time">
+                        <div className="save__vacancie">
+                            <img src={saving} alt="save" />
+                        </div>
+                        <div className="posted__like">Posted 2 days ago</div>
+                    </div>
                 </div>
             </div>
         </div>
