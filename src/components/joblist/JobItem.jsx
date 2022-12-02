@@ -15,7 +15,6 @@ function JobItem(props) {
                     <div className="jobitem__description-block">
                         <div className="responsive__jobitem-reaction">
                             <img src={stars} alt="rate" />
-                            <div>Posted 2 days ago</div>
                         </div>
                         <Link to={`/workpage/${props.id}`}><div className='jobitem__description' key={props.id}>{props.title}</div></Link>
                         <div className="jobitem__department-name">Department name •  Allgemeines Krankenhaus der Stadt Wien - AKH</div>

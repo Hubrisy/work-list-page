@@ -32,24 +32,6 @@
         display: flex;
         justify-content: space-between;
     }
-    .responsive__jobitem-reaction div{
-        display: flex;
-        margin-right: 15px;
-    }
-    .responsive__jobitem-reaction{
-        font-family: 'Proxima Nova';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 25px;
-        color: #878D9D;
-    }
-    .jobitem__post-time{
-        margin-top: 0px;
-    }
-    .posted__like{
-        order: -1;
-    }
     .save__vacancie{
         display: none;
     }
@@ -67,7 +49,6 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 24px;
-        text-overflow: ellipsis;
     }
     .ava__container img{
         height: 66px;
@@ -100,6 +81,9 @@
     }
 }
 @media(max-width: 575px){
+    .jobitem__location-container{
+        display: none;
+    }
     .salary__block{
         display: none;
     }
